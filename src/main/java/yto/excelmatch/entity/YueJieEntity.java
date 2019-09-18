@@ -9,9 +9,6 @@ import cn.afterturn.easypoi.excel.annotation.ExcelTarget;
 @ExcelTarget("yueJieEntity")
 public class YueJieEntity  implements java.io.Serializable{
 	private static final long serialVersionUID = 9096703828706L;
-	
-
-	
 	@Excel(name = "生成状态", orderNum = "0", width = 20)
 	private String genFlg;
 	// 结算客户类型

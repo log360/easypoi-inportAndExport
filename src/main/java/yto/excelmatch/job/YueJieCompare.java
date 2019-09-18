@@ -11,11 +11,8 @@ public class YueJieCompare {
 	public static void main(String[] args) {
 		ExcelJob excelJob =new ExcelJob();
 		String filePath1 = ExcelJob.filePath + "月结1.xlsx";
-		String filePath12 = ExcelJob.filePath + "月结2.xlsx";
 		Integer titleRows = 0;
 		Integer headerRows = 1;
-		
-		
 		List<YueJieEntity> yueJieList = excelJob.importExcel(filePath1, titleRows, headerRows, YueJieEntity.class);
 		Map<String, YueJieEntity> map1 = setMap(yueJieList);
 		String filePath2 = ExcelJob.filePath + "月结2.xlsx";
@@ -50,8 +47,5 @@ public class YueJieCompare {
 		}
 		return map;
 	}
-
-	
-	
 	
 }

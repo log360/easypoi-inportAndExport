@@ -30,10 +30,6 @@ public class ExcelJob {
 			} catch (Exception e) {
 				System.out.println(e);
 			}
-	    
-	      
-	        	
-	        	
 	        return list;
 	    }
 	    
@@ -64,7 +60,5 @@ public class ExcelJob {
 			 
 		}
 		
-		
-	   
 	   
 }
